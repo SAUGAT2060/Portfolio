@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import logo from "../../Images/Logo.png";
 function Header() {
   const navRef = useRef();
@@ -22,27 +22,27 @@ function Header() {
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-12">
             <li>
-              <Link className="hover:text-gray-500 text-white" to="/">
+              <Link className="hover:text-gray-500 text-white" >
                 Home
               </Link>
             </li>
             <li>
-              <Link className="hover:text-gray-500 text-white" to="/Project">
+              <Link className="hover:text-gray-500 text-white" >
                 Projects
               </Link>
             </li>
             <li>
-              <Link className="hover:text-gray-500 text-white" to="/About">
+              <Link className="hover:text-gray-500 text-white" >
                 About
               </Link>
             </li>
             <li>
-              <Link className="hover:text-gray-500 text-white" to="/Experience">
+              <Link className="hover:text-gray-500 text-white">
                 Experience
               </Link>
             </li>
             <li>
-              <Link className="hover:text-gray-500 text-white" to="/Contact">
+              <Link className="hover:text-gray-500 text-white ">
                 Contact
               </Link>
             </li>
