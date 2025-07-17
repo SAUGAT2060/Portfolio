@@ -11,8 +11,8 @@ function Header() {
     navRef.current.classList.toggle("top-[9%]");
   };
   return (
-    <header className="bg-[#00585E] font-winky">
-      <nav className="flex items-center m-auto justify-between w-[92%] mx-auto">
+    <header className="bg-[#00585E] font-winky w-full  ">
+      <nav className="flex items-center m-auto justify-between w-[92%] mx-auto  ">
         <div>
           <img src={logo} alt="Image" className="w-16 h-16" />
         </div>
