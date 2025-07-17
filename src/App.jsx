@@ -1,4 +1,4 @@
-import { Home,About,Experience, Header,Footer,Skills, Project } from "./component"
+import { Home,About,Experience, Header,Footer,Skills, Project,Contact } from "./component"
 function App() {
  
 
@@ -11,7 +11,7 @@ function App() {
    <Experience/>
    <Skills/>
    <Project/>
-   
+   <Contact/>
    <Footer/>
 
    </>
