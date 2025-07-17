@@ -1,4 +1,4 @@
-import { Home,About,Experience, Header,Footer,Skills } from "./component"
+import { Home,About,Experience, Header,Footer,Skills, Project } from "./component"
 function App() {
  
 
@@ -10,6 +10,8 @@ function App() {
    <About/>
    <Experience/>
    <Skills/>
+   <Project/>
+   
    <Footer/>
 
    </>

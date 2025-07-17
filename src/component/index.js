@@ -6,7 +6,9 @@ import Project from './Project/Project'
 import Experience from "./Experience/Experience";
 import Contact from './Contact/Contact'
 import Skills from './Skills/Skills'
-export {
+export 
+
+{
   Skills,
   Home,
   Header,
