@@ -2,7 +2,9 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='bg-gradient-to-tr from-[#95ebd4] to-[#00585E] font-winky'>
+    <div  
+    id='About'
+    className='bg-gradient-to-tr from-[#95ebd4] to-[#00585E] font-winky'>
       <div className='py-3'>
         <h1 className='text-white text-center font-semibold text-shadow-sm text-shadow-black text-5xl'>About</h1>
       </div>

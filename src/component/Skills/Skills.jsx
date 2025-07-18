@@ -10,6 +10,7 @@ import GithubLogo from '../../Images/GITHUB.png'
 import GitLogo from '../../Images/GIT.png'
 import AzureLogo from '../../Images/AZURE.png'
 import Wordlogo from '../../Images/WORD.png'
+import Tailwindlogo from '../../Images/TAILWIND.png'
  function Skills() {
   return (
       <div className='items-center font-winky  bg-linear-to-br from-[#00585E] to-[#95ebd4] px-10'>
@@ -28,6 +29,9 @@ import Wordlogo from '../../Images/WORD.png'
           </div>
           <div >
             <img src={Reactlogo} alt="React" className='h-15 md:h-20'/>
+          </div>
+           <div >
+            <img src={Tailwindlogo} alt="React" className='h-15 md:h-20'/>
           </div>
            <div >
             <img src={Javalogo} alt="Java" className='h-15 md:h-20'/>

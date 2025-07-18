@@ -4,7 +4,9 @@ import logoo from '../../Images/ILAC.png'
 
 function Experience() {
   return (
-    <div className='bg-gradient-to-br from-[#00585E] to-[#95ebd4] font-winky'>
+    <div 
+    id='Experience'
+    className='bg-gradient-to-br from-[#00585E] to-[#95ebd4] font-winky'>
       <div className='text-center py-7'>
         <h1 className='text-5xl font-semibold text-white text-shadow-sm text-shadow-black'>Experience</h1>
       </div>

@@ -24,8 +24,7 @@ export default function Contact() {
   text: "Message sent successfully",
   icon: "success"
 });
-      // setResult("Form Submitted Successfully");
-      // event.target.reset();
+    
     } else {
       Swal.fire({
   icon: "error",
@@ -38,7 +37,9 @@ export default function Contact() {
   };
 
   return (
-   <div className='items-center font-winky bg-gradient-to-br from-[#00585E] to-[#95ebd4] px-10 text-center py-16'>
+   <div
+   id='Contact'
+   className='items-center font-winky bg-gradient-to-br from-[#00585E] to-[#95ebd4] px-10 text-center py-16'>
   <section className='flex justify-center items-center min-h-screen'>
     <form
       onSubmit={onSubmit}
