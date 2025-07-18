@@ -15,7 +15,13 @@ function Header() {
     <header className="bg-[#00585E] font-winky w-full fixed top-0 z-50 shadow-md ">
       <nav className="flex items-center m-auto justify-between w-[92%] mx-auto">
         <div>
+          <Link 
+          to="Home" 
+          smooth={true} 
+          duration={500}
+          className="cursor-pointer">
           <img src={logo} alt="Image" className="w-16 h-16" />
+          </Link>
         </div>
         <div
   className={`nav-links duration-500 absolute md:static left-0 w-full md:w-auto min-h-[60vh] md:min-h-fit flex items-center px-5 bg-[#00585E]
@@ -36,13 +42,6 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="projects" smooth={true} duration={500}
-                className="text-white hover:text-white hover:border-b-2 hover:border-white border-transparent cursor-pointer py-2"
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
               <Link to="About" smooth={true} duration={500}
                 className="text-white hover:text-white hover:border-b-2 hover:border-white border-transparent cursor-pointer py-2"
               >
@@ -57,6 +56,15 @@ function Header() {
                 Experience
               </Link>
             </li>
+            <li>
+              <Link to="projects" smooth={true} duration={500}
+                className="text-white hover:text-white hover:border-b-2 hover:border-white border-transparent cursor-pointer py-2"
+              >
+                Projects
+              </Link>
+            </li>
+            
+            
             <li>
               <Link
                to="Contact"  smooth={true} duration={500}
